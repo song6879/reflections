@@ -1,9 +1,10 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-    When you run git init, you initialize and create a repository, a hidden folder named '.git' is
-    created, there is stored bunch of meta-data for git repository. 
+    When you run git init, you initialize and create a repository, a hidden folder
+    named '.git' is created, there is stored bunch of meta-data for git repository. 
     If you want to make a directory as a git repository, you must explicitly 
     run git init, then a hidden directory is created.
+    
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
     
@@ -18,8 +19,16 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+    When you made changes to your work directory per logical change, using git
+    add to add the changed file to the staging area, then commit to git repository.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+    When you want to try experimental features you're not sure; when you test 
+    different versions, like development version, production version. Branch makes your
+    project organized. branch makes you collaborate better with yourself, go back and
+    forth when you try new features.
 
 How do the diagrams help you visualize the branch structure?
 
