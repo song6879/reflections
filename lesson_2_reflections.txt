@@ -32,6 +32,9 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
+    The commits history diagram is comprised of connected commit node, from the 
+    diagram we can visualize branch structure, and know which commit is unreachable.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
