@@ -13,3 +13,14 @@ stay up-to-date with your remote repository?
     automatically updating, it's not at the right time, and the conflicts are not
     easy to resolve, it's better manually updating, let you decide when to pull 
     remote repository.
+    
+Describe the differences between forks, clones, and branches. When would you use one 
+instead of another?
+
+    A branch is a list of connected commits, a git repository may contains many 
+    branches, the branches are connected. Git clone copies a repository from remote 
+    or local, after copy, they have the same contains. when you fork a github 
+    repository, your repository is linked to that repository.
+    When copy from remote to local, using clone. When you want to make a copy of other
+    github repository, using github fork to let your repository link to the other. 
+    
