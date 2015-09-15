@@ -38,5 +38,15 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+    The result keeps both features in the two branches. In that way we can easily
+    understand what commit history is alike, and what should be kept in the result
+    commit.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+    Pros of Git's automatic merging: easy to use, save time. Cons: although it's 
+    working, maybe it's not the best solution of merging, sometime there may have
+    redundant codes.
+    Manually merging maybe very efficient, but it costs lots of time, and may also
+    introduce bugs.
