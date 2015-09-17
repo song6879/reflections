@@ -23,4 +23,15 @@ instead of another?
     repository, your repository is linked to that repository.
     When copy from remote to local, using clone. When you want to make a copy of other
     github repository, using github fork to let your repository link to the other. 
-    
+
+What is the benefit of having a copy of the last known state of the remote stored 
+locally?
+
+    With "git fetch" we can get a copy of the last known state of the remote stored
+    locally which is "origin/master". The remote repository name is "origin", the
+    remote branch name is "master". There is also a local version of our project.
+    With that local copy, you can work off-line, even no internet connection, you
+    can use "git diff" against local version, and you can work local version separately,
+    you can also merge the two, but if the remote version changed after you last
+    fetch, you have to fetch the rmeote and merge again before you push your work
+    to the remote github.
