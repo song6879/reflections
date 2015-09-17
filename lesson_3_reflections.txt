@@ -35,3 +35,23 @@ locally?
     you can also merge the two, but if the remote version changed after you last
     fetch, you have to fetch the rmeote and merge again before you push your work
     to the remote github.
+    
+How would you collaborate without using Git or GitHub? What would be easier, and 
+what would be harder?
+
+    When I worked at the same project with others, without git or github, I col-
+    laborate with others through meeting. First we had a functional separate of the
+    project, reduce the overlap as much as possible. But there must had some occa-
+    sions two or more people had to change same file, or same functional module,
+    through discuss and good programming practice, we could do a good job, solve
+    the problem beautifully, but sometime it's very pain.
+    
+When would you want to make changes in a separate branch rather than directly in 
+master? What benefits does each approach have?
+
+    When we have new features added to the project, or a fix need to be done, we'd
+    better have a new branch, and make changes in the new branch, after thoroughly 
+    test, if there is no bugs and the work is well done, then merge to the master.
+    We may have many branches are way ahead of the master branch, so we have stable
+    version, also have development, testing version, and etc. The project can be 
+    well organized.
